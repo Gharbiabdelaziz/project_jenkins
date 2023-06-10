@@ -1,0 +1,15 @@
+all:
+  children:
+    east:
+      hosts:
+        server:
+        client:
+    west:
+      hosts:
+        client:
+    jenkins:
+      hosts:
+        server:
+    docker:
+      hosts:
+        client:
